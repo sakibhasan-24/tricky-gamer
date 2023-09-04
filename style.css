@@ -52,7 +52,52 @@
 .tictok {
   background-color: #000;
 }
-
+/* start of banner section */
+.banner-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+  margin-top: 1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+}
+.banner-text-container {
+  padding: 2rem 3rem;
+  margin-right: 3rem;
+}
+.banner-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.banner-special-text {
+  /* background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-size: 5.95rem;
+  color: rgb(255, 69, 0, 0.6);
+  margin-top: 0.5rem;
+}
+.banner-img-container img {
+  width: 80%;
+}
+.banner-info p {
+  margin-top: 1.2rem;
+  color: #534c64;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+.banner-info i {
+  margin-right: 0.8rem;
+}
+/* end of banner section */
 /* end of header section */
 
 /* mobile device */
