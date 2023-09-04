@@ -82,3 +82,21 @@
     padding: 0.4rem 1.1rem;
   }
 }
+
+/* tablet view */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .header {
+    padding: 0.2rem 1rem;
+    height: auto;
+  }
+  .list-items {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondary-list {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+  }
+}
