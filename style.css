@@ -1,0 +1,56 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* header section style */
+.header {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  height: 6rem;
+  /* margin-top: 0.5rem; */
+  padding: 0.5rem 1rem;
+}
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-items li a {
+  margin-right: 1.8rem;
+  color: #3c354f;
+}
+.main-list,
+.secondary-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-list li a {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.secondary-list {
+  margin-right: 7rem;
+}
+.secondary-list li a {
+  font-size: 1.2rem;
+  color: #3c354f;
+}
+.main-list span {
+  color: rgb(255, 66, 165, 1);
+}
+.follow-media {
+  display: flex;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 0.5rem 1rem;
+}
+.youtube {
+  color: red;
+}
+.tictok {
+  background-color: #000;
+}
+
+/* end of header section */
