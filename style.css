@@ -355,6 +355,7 @@ main {
 }
 
 footer {
+  display: none;
   background: #0b0223;
   padding: 2rem 4rem;
 }
@@ -526,6 +527,12 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
+  .types-of-games {
+    max-width: 50rem;
+  }
+  .types {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* tablet view */
@@ -585,5 +592,8 @@ footer p {
   .carrier-section {
     height: 90rem;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .types {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
