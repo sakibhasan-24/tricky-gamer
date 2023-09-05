@@ -259,6 +259,31 @@ main {
   .game-quote {
     text-align: center;
   }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+  .section-text {
+    font-size: 0.8rem;
+    margin-left: 0.9rem;
+  }
+  .games-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .game {
+    padding: 0.5rem 1rem;
+    box-shadow: 0.5rem 0.8rem 1rem 2rem #e6e6e6c3;
+    margin-left: 3rem;
+  }
+  .game-img img {
+    /* width: 100%; */
+    width: 19rem;
+  }
+  .game-text p {
+    width: 19rem;
+  }
 }
 
 /* tablet view */
