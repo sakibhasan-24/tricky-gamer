@@ -389,6 +389,7 @@ footer {
 }
 .footer-list ul {
   display: flex;
+
   align-items: center;
   justify-content: center;
 }
@@ -571,24 +572,33 @@ footer p {
   }
   footer {
     width: 100%;
-    padding: 2rem 8rem;
+    padding: 5rem 8rem;
   }
   .footer-container {
     width: 90%;
-    padding: 1rem 1rem;
+    padding: 1rem 0.7rem;
   }
 
   .footer-list {
-    margin: 1rem 2rem;
+    margin: 5rem 4rem;
   }
   .footer-list ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-evenly;
-    gap: 0.5rem;
+    gap: 1.2rem;
   }
   .footer-list ul li,
   a {
-    margin-right: 1.9rem;
+    display: block;
+    width: 6rem;
+    margin-right: 0;
     margin-left: 0.6rem;
+  }
+  .footer-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
   }
 }
 
