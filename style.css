@@ -318,7 +318,42 @@ main {
   font-weight: 900;
 }
 /* end of carrier section */
+/* types of games section */
 
+.types-of-games {
+  max-width: 60rem;
+  margin: 3rem auto;
+}
+.types {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.type {
+  width: 10rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 6rem;
+}
+.next-game {
+  margin-left: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.type p {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+.type:hover {
+  border: 0.9px solid #ff42a5;
+  color: #ff42a5;
+
+  transition: all 0.7s;
+}
+/* end of games section */
 /* mobile device */
 @media screen and (max-width: 576px) {
   .header {
@@ -500,5 +535,9 @@ main {
   .container-two,
   .playing-variations-container img {
     margin-top: 5rem;
+  }
+  .carrier-section {
+    height: 90rem;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
