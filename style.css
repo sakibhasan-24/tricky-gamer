@@ -193,6 +193,31 @@
     margin: 0 auto;
     padding: 5rem 5rem 1rem 3rem;
   }
+  .second-banner {
+    max-width: 36rem;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    padding: 1rem 0.9rem;
+  }
+  .second-banner-img img {
+    width: 100%;
+    height: auto;
+  }
+  .second-banner-text-container {
+    padding: 2rem 0.5rem;
+  }
+  .second-banner-title {
+    text-align: center;
+  }
+  .second-banner-text {
+    text-align: center;
+  }
+  .btn-second-banner {
+    margin-left: 2.6rem;
+  }
+  .game-quote {
+    text-align: center;
+  }
 }
 
 /* tablet view */
