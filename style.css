@@ -316,4 +316,10 @@ main {
   .second-banner {
     grid-template-columns: repeat(1, 1fr);
   }
+  .games-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .game {
+    margin-left: 2rem;
+  }
 }
