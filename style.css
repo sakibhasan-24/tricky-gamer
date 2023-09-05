@@ -261,9 +261,63 @@ main {
   top: 19rem;
   left: -2.6rem;
 }
+.container-two {
+  margin: 15rem 0;
+}
 /* 2)end of playing variations */
-
 /* end main section */
+/* carrier section */
+
+.carrier-section {
+  max-width: 80rem;
+  height: 60rem;
+  background: linear-gradient(90deg, #ff42a5 18.13%, #ff42a5 97.94%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.carrier-section-text-container {
+  padding: 2rem 4.5rem;
+}
+.carrier-title {
+  color: #fff;
+  font-size: 3rem;
+}
+.carrier-text {
+  color: #fff;
+  width: 20rem;
+  font-size: 0.8rem;
+  line-height: 20px;
+}
+.carrier-img-section img {
+  width: 40rem;
+  height: 40rem;
+}
+
+.carrier-list-container {
+  max-width: 15rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10rem;
+  color: #fff;
+  font-size: 1rem;
+}
+.positeion,
+.address p {
+  margin-left: 6rem;
+  margin-top: 1rem;
+}
+.carrier-btn {
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 3rem;
+  font-size: 1, 2rem;
+  color: #3c354f;
+  cursor: pointer;
+  font-weight: 900;
+}
+/* end of carrier section */
+
 /* mobile device */
 @media screen and (max-width: 576px) {
   .header {
