@@ -412,4 +412,22 @@ main {
   .game {
     margin-left: 2rem;
   }
+  .playing-variations {
+    margin: 0.1rem 1rem;
+  }
+  .playing-variations-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 5rem 4rem;
+  }
+  .container-two {
+    margin-top: 15rem;
+  }
+  .container-two,
+  .playing-variations-info {
+    margin-top: 6rem;
+  }
+  .container-two,
+  .playing-variations-container img {
+    margin-top: 5rem;
+  }
 }
