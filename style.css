@@ -291,6 +291,7 @@ main {
 .carrier-section {
   border-radius: 1rem;
   max-width: 80rem;
+  margin: auto;
   height: 60rem;
   background: linear-gradient(90deg, #ff42a5 18.13%, #ff42a5 97.94%);
   display: grid;
