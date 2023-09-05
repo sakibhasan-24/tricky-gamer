@@ -353,6 +353,52 @@ main {
 
   transition: all 0.7s;
 }
+
+footer {
+  background: #0b0223;
+  padding: 2rem 4rem;
+}
+.primary-footer {
+  text-align: center;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.primary-footer h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+.primary-footer span {
+  color: #ff42a5;
+}
+.footer-list ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-list ul li,
+a {
+  margin-right: 2rem;
+  color: #fff;
+}
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon i {
+  margin-left: 4rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+footer p {
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+}
 /* end of games section */
 /* mobile device */
 @media screen and (max-width: 576px) {
