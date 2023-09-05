@@ -219,8 +219,13 @@ main {
 .playing-variations {
   margin-top: 4.6rem;
 }
+.playing-variations-container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
 .playing-variations-info {
   width: 30rem;
+  margin-left: 3rem;
 }
 .playing-variations-title {
   font-size: 3rem;
@@ -342,6 +347,32 @@ main {
   }
   .game-text p {
     width: 19rem;
+  }
+  .playing-variations {
+    margin: 0.1rem 1rem;
+  }
+  .playing-variations-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 1rem;
+  }
+  .playing-variations-img-container {
+    position: relative;
+  }
+  .playing-variations-img-container :first-child {
+    width: 18rem;
+  }
+  .playing-variations-img-container :last-child {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 10rem;
+    left: -4rem;
+  }
+  .playing-variations-info {
+    width: 80%;
+  }
+  .playing-variations-title {
+    margin-top: 5rem;
   }
 }
 
