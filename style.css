@@ -166,6 +166,7 @@ main {
 }
 /* 1)online games container */
 .section-title {
+  font-family: "Signika", sans-serif;
   color: #0b0223;
   text-align: center;
   font-size: 3rem;
@@ -206,6 +207,7 @@ main {
 }
 
 .watch-now {
+  font-family: "Signika", sans-serif;
   color: #fff;
   font-size: 1.2rem;
   display: flex;
@@ -302,6 +304,7 @@ main {
   padding: 2rem 4.5rem;
 }
 .carrier-title {
+  font-family: "Signika", sans-serif;
   color: #fff;
   font-size: 3rem;
 }
